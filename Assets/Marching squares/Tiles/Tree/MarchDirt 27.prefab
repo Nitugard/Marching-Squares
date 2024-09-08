@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &108402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400478}
+  - component: {fileID: 11413842}
+  m_Layer: 0
+  m_Name: MarchDirt 27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11413842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e48828f91ff23248a6e26449c286809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Base:
+    zOffest: 0
+    Type: 0
+    Mat: {fileID: 2100000, guid: a636d07c58754174abdcd95673030c7b, type: 2}
+    OffsetX: 0
+    OffsetY: 32
+    Width: 16
+    Height: 16
+    Unit: {x: 0.25, y: 0.25}
+    Offset: {x: 0, y: 0.5}
+  Parent: {fileID: 11460234, guid: 593465e102e771740b1b2a4c7d38431d, type: 3}
+  Top:
+  - {fileID: 11460234, guid: 23a769bacaf8e044fba540ada910ba7e, type: 3}
+  Left:
+  - {fileID: 11460234, guid: 8056e27ea19f3ee4dad13266e095daf5, type: 3}
+  - {fileID: 11460234, guid: bd6ab327057df5143b0926cb7df93c5e, type: 3}
+  - {fileID: 11460234, guid: 593465e102e771740b1b2a4c7d38431d, type: 3}
+  Right:
+  - {fileID: 11460234, guid: 8056e27ea19f3ee4dad13266e095daf5, type: 3}
+  - {fileID: 11460234, guid: bd6ab327057df5143b0926cb7df93c5e, type: 3}
+  - {fileID: 11460234, guid: 593465e102e771740b1b2a4c7d38431d, type: 3}
+  Bot:
+  - {fileID: 11460234, guid: 8056e27ea19f3ee4dad13266e095daf5, type: 3}
+  - {fileID: 11460234, guid: bd6ab327057df5143b0926cb7df93c5e, type: 3}
+  - {fileID: 11460234, guid: 593465e102e771740b1b2a4c7d38431d, type: 3}
